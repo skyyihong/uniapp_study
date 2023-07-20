@@ -5,6 +5,55 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		}, {
+			"path": "pages/native/native",
+			"style": {
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/navigate/navigate",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/navigatebar/navigatebar",
+			"style": {
+				"navigationBarTitleText": "navigatebar",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/iconfontuse/iconfontuse",
+			"style": {
+				"navigationBarTitleText": "iconfontuse",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/css_global_value/css_global_value",
+			"style": {
+				"navigationBarTitleText": "css_global_value",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00cc00"
+			}
+
+		}, {
+			"path": "pages/iconfont1/iconfont1",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/iconfont2/iconfont2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	],
 	"globalStyle": {
@@ -13,5 +62,27 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"tabBar": {
+		"iconfontSrc": "static/iconfont.ttf",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconfont": {
+					"text": "\ue8b9",
+					"selectedText": "\ue8c7"
+
+				}
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/iconfont2/iconfont2",
+				"iconfont": {
+
+					"text": "\ue8bb",
+					"selectedText": "\ue8c6"
+				}
+			}
+		]
+	}
+
 }
